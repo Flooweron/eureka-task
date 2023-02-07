@@ -1,0 +1,55 @@
+.wrapper {
+  display: flex;
+  width: 700px;
+  justify-content: flex-around;
+}
+
+.city {
+  width: 300px;
+  padding: 15px;
+}
+
+.city-button {
+  display: flex;
+  flex-direction: column;
+}
+
+.city-label {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 16px;
+  padding: 5px;
+}
+
+.city-label label {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.info-city {
+  width: 400px;
+}
+
+.btn {
+  display: inline-block;
+	box-sizing: border-box;
+	padding: 0 10px;
+	margin: 0 10px 10px 0;
+	outline: none;
+	border: none;
+	border-radius: 6px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;
+}
+
+.btn:active {
+	transform: scale(0.96);
+}

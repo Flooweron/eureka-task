@@ -1,0 +1,15 @@
+<div class="wrapper">
+  <div class="city">
+    <div class="city-label">
+      <label>Выберите город</label>
+    </div>
+    <div class="city-button">
+      <button class="btn" *ngFor="let cityName of cityNameList"
+              (click)="changeSelectedCity(cityName.en)"
+              [ngStyle]="{'background': selectedCityName === cityName.en ? 'red' : 'black' } ">{{ cityName.ru }}</button>
+    </div>
+  </div>
+  <div class="info-city">
+    <app-info-city></app-info-city>
+  </div>
+</div>
